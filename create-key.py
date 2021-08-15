@@ -1,8 +1,8 @@
 from cryptography.fernet import Fernet
 
-# create key
+# create key for encryption and decryption
 key = Fernet.generate_key()
   
-# string the key in a file
+# save the key
 with open('filekey.key', 'wb') as filekey:
    filekey.write(key)
