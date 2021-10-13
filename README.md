@@ -1,4 +1,6 @@
-# Encrypt - Decrypt Files 
+# Encrypt - Decrypt Files (RANSOMWARE)
+
+- FOR EDUCATIONAL PURPOSES ONLY!
 
 This script will iterate through the given file path and encrypt/decrypt all files. Please use this script carefully, if you lose the key you may not be
 able to decrypt your files.

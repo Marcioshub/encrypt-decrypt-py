@@ -11,7 +11,7 @@ def main():
         fernet = Fernet(key)
 
     # starting path
-    path = "/Users/spency/Desktop/tmp"
+    path = "/Users/spency/Desktop/demo"
 
     # iterate through dictories starting with the path given
     for root, dirs, files in os.walk(path, topdown=False):
